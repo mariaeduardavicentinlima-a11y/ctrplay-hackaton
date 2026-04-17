@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+.larry-section{
+    border: solid 1px white;
+    height: 100% vh;
+
+    display: flex;
+    gap: 10px;
+
+    justify-content: center;
+}
+
+.larry-img{
+    border: solid 1px blue;
+    width: 40%;
+}
+
+.larry-img > img{
+    width: 100%
+}
+
+.larry-dialogue{
+    border: solid 1px rgb(255, 0, 128);
+    width: 40%;
+}
