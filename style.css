@@ -1,5 +1,7 @@
 body{
     background-color: rgb(0, 0, 0);
+    color: white;
+
 }
 
 .larry-section{
@@ -9,7 +11,7 @@ body{
     display: flex;
     gap: 10px;
 
-    justify-content: center;
+
 }
 
 .larry-img{
@@ -24,4 +26,16 @@ body{
 .larry-dialogue{
     border: solid 1px rgb(255, 0, 128);
     width: 40%;
+    
+}
+
+.larry-dialogue-text{
+    min-height: 60px;
+    line-height: 1.5;
+}
+
+/* TODO: AUMENTAR A LETRA DO TEXTO */
+.larry-dialogue-text p{
+    font-size: 50px;
+    padding: 10px;
 }
